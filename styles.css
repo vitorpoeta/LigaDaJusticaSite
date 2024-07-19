@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 60px;
+    
+}
+
+header {
+    background-color: #07070a;
+    width: 100%;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "bebas neue", cursive;
+    /* fonte que importei do google fonts */
+    text-shadow: 2px 2px 2px #24272b;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #020202;
+    font-family: "bebas neue", cursive;
+    text-shadow: 2px 2px 2px #635f5f;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: #020202;
+    font-family: karla, sans-serif; 
+    /* fonte que importei do google fonts */
+}
+
+section {
+    background-color: #24272b;
+    padding: 20px; /* Havia um espaço entre o footer e o background, fiz isto para preenche-lo*/
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; /* Isto vai servir para aumentar o espacamento entre os cards, ficou bem mais claro */
+    justify-content: center;
+    padding: 20px;
+}
+
+.lja-card {
+    width: 30%; /* Faz o card ocupar 30% da largura da tela, isto serviu para mim conseguir colocar 3 cards por fileira */
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #020202;
+}
+
+.lja-card img {
+    width: 100%; /* Faz a imagem preencher a largura do card */
+    height: auto; /* Mantém a proporção original da imagem no card */
+}
+
+.card-content {
+    padding: 10px; /* Serviu para dar um padding entre o texto e a imagem do card */
+    text-align: center; 
+}
+footer {
+    background-color: #07070a;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    text-align: center;
+}
+
+p.footer {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "bebas neue", cursive;
+    text-shadow: 2px 2px 2px #24272b;
+}
