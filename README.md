@@ -21,6 +21,9 @@ O site inclui informações sobre os seguintes membros da Liga da Justiça:
 5. Flash
 6. Cyborg
 
+## Exucução
 
+Pode acessar pelo vercel:
+https://liga-da-justica-site.vercel.app/
 
 
