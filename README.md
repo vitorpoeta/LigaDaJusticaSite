@@ -2,6 +2,8 @@
 
 Este é um projeto de um site desenvolvido para apresentar informações sobre os membros fundadores da Liga da Justiça. O objetivo principal é demonstrar habilidades em HTML e CSS.
 
+![Print do projeto](imagens/print-liga-da-justica.png)
+
 ## Descrição
 
 O site foi criado para fornecer uma visão geral dos heróis da Liga da Justiça, destacando suas características e habilidades em uma interface visualmente atraente. Cada herói tem um card dedicado que inclui uma imagem e uma breve descrição.
